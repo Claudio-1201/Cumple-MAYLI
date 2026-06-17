@@ -177,3 +177,93 @@ button:hover{
     }
 
 }
+
+.ventana-foto{
+
+    display:none;
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,0.6);
+
+    justify-content:center;
+    align-items:center;
+
+    z-index:999;
+
+}
+
+
+
+.contenido-foto{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    animation:aparecer 0.5s;
+
+}
+
+
+
+.foto-sorpresa{
+
+    width:500px;
+
+    max-width:90%;
+
+    height:auto;
+
+    border-radius:20px;
+
+    border:5px solid hotpink;
+
+}
+
+
+
+.cerrar{
+
+    display:block;
+
+    text-align:right;
+
+    font-size:25px;
+
+    cursor:pointer;
+
+}
+
+
+
+@keyframes aparecer{
+
+    from{
+
+        transform:scale(0.5);
+
+        opacity:0;
+
+    }
+
+
+    to{
+
+        transform:scale(1);
+
+        opacity:1;
+
+    }
+
+}

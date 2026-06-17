@@ -9,5 +9,12 @@ function irIzquierda(){
 }
 
 function mostrarMensaje(){
-    alert("GRACIAS POR SER UNA BUENA AMIGA MAYLII, TE APRECIO BASTANTE");
+
+    document.getElementById("sorpresaFoto").style.display = "flex";
+
+}
+
+function cerrarFoto(){
+
+    document.getElementById("sorpresaFoto").style.display = "none";
 }
