@@ -9,5 +9,5 @@ function irIzquierda(){
 }
 
 function mostrarMensaje(){
-    alert("GRACIAS POR SER UNA BUENA AMIGA NALGAA, TE APRECIO BASTANTE");
+    alert("GRACIAS POR SER UNA BUENA AMIGA MAYLII, TE APRECIO BASTANTE");
 }

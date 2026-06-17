@@ -71,6 +71,8 @@ h1{
 
 /* PARRAFOS */
 p{
+    font-family: 'lucida console', cursive;
+    
     color: black;
 
     font-size: 20px;
@@ -130,6 +132,8 @@ button:hover{
 
 /* TEXTO FINAL */
 .final{
+    font-family:'Algerian';
+
     margin-top: 20px;
 
     font-size: 24px;
